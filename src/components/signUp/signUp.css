@@ -1,0 +1,217 @@
+.card {
+  width: 412px;
+  /* height: 700px; */
+
+  /* border: 1px solid black; */
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  text-align: center;
+  margin: 77px auto;
+}
+.card-container {
+  padding: 25px 40px;
+}
+
+.card-title {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  /* identical to box height, or 100% */
+
+  color: #000000;
+}
+
+.card-description {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 20px;
+  margin-top: 14px;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 16px;
+}
+
+.content-row1 {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 0 10px;
+}
+
+.content-row1 .f-name,
+.content-row1 .l-name {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-content: space-between;
+}
+
+label {
+  text-align: start;
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 20px;
+  /* identical to box height, or 200% */
+
+  color: #000000;
+}
+
+input {
+  border: none;
+  border-bottom: 1px solid black;
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  /* identical to box height, or 167% */
+
+  color: #c4c4c4;
+}
+
+.content-row2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 16px;
+  width: 100%;
+}
+
+.content-row2 input {
+  width: 100%;
+}
+
+.content-row3 {
+  display: flex;
+  flex-direction: column;
+  padding-left: 12px;
+  margin-top: 12px;
+  width: 100%;
+}
+
+.content-row3 .suggest {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.content-row3 .content-suggest {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: calc(20 / 10);
+  /* identical to box height, or 200% */
+
+  color: #616161;
+}
+
+.content-row4 {
+  width: 100%;
+  padding-left: 5px;
+  margin-top: 12px;
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  /* identical to box height, or 167% */
+
+  color: #616161;
+}
+
+.content-row5 {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.content-row5 .button-signup {
+  width: 240px;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  background-color: #2e77d0;
+  color: #ffffff;
+  padding: 6px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.content-row6 {
+  margin-top: 20px;
+  width: 100%;
+
+  text-align: start;
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: calc(20 / 12);
+  /* or 167% */
+
+  color: #616161;
+}
+
+.content-button {
+  margin-top: 8px;
+  width: 100%;
+}
+.content-button .button-gg {
+  cursor: pointer;
+  width: 330px;
+  height: 40px;
+  color: #2e77d0;
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+  background: #ffffff;
+  /* Elevation Shadow */
+
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.12),
+    0px 1px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+.content-button .button-office {
+  cursor: pointer;
+  width: 330px;
+  height: 40px;
+  color: red;
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+  background: #ffffff;
+  /* Elevation Shadow */
+
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.12),
+    0px 1px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+.content-button img {
+  position: absolute;
+  left: 40px;
+}
