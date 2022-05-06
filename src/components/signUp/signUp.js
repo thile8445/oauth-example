@@ -133,18 +133,6 @@ export default function SignUp() {
                 Sign Up with Google
               </div>
             </div>
-            {/* <div className="content-button">
-              <GoogleLogin
-                clientId={clientId}
-                buttonText="Login"
-                onSuccess={onSuccess}
-                onFailure={onFailure}
-                cookiePolicy={"single_host_origin"}
-                redirectUri={"localhost:3000/avcas"}
-                style={{ marginTop: "100px" }}
-                isSignedIn={true}
-              />
-            </div> */}
             <div className="content-button">
               <div
                 className="button-office"
